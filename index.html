@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="image">
+            <img src="images.jpeg" alt="image" height="60px" width="60px">
+        </div>
+        <div class="toolbar">
+            <button id="undo"><i class="fas fa-undo" style="font-size: 16px; margin-right: 5px"></i>Undo</button>
+            <button id="redo"><i class="fas fa-redo" style="font-size: 16px; margin-right: 5px"></i>Redo</button>
+        </div>
+    </header>
+
+    <footer>
+        <div class="features">
+            <button id="addText"><i class="fa-solid fa-t" style="margin-right: 5px; font-size:15px"></i>Add
+                Text</button>
+            <select id="fontFamily">
+                <option selected="selected">Font</option>
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+            <input type="number" id="fontSize" value="20" min="10" max="100">
+            <button id="bold"><i class="fa-solid fa-bold"></i></button>
+            <button id="italic"><i class="fa-solid fa-italic"></i></button>
+            <button id="underline"><i class="fa-solid fa-underline"></i></button>
+        </div>
+    </footer>
+
+    <canvas id="canvas" width="800" height="450"></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #f4f4f4;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 10px 0px;
+    box-shadow: 0px 4px 1px rgb(94, 93, 93);
+    display: flex;
+    justify-content: end;
+}
+
+footer {
+    background-color: #e2dfdf;
+    width: 100%;
+    text-align: center;
+    padding: 27px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    position: absolute;
+    bottom: 10px;
+    gap: 10px;
+    margin: 0px auto;
+}
+
+#addText {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(158, 157, 157);
+    cursor: pointer;
+}
+
+#fontFamily {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(197, 195, 195);
+    cursor: pointer;
+}
+
+#fontSize {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(197, 195, 195);
+    cursor: pointer;
+}
+
+#bold {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(158, 157, 157);
+    cursor: pointer;
+}
+
+#italic {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(158, 157, 157);
+    cursor: pointer;
+}
+
+#underline {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(158, 157, 157);
+    cursor: pointer;
+}
+
+#undo {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #e2e0e0;
+    cursor: pointer;
+}
+
+#redo {
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #e2e0e0;
+    cursor: pointer;
+}
